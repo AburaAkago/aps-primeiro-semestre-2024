@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contato</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="../src/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect"/>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <div class="sidebar-wrapper">
+            <div class="header">
+                <a href="/" class="site-name">Energia Eólica</a>
+                <div class="grey-rule w-hidden-small w-hidden-tiny"></div>
+                <p class="site-description">Está é uma pagina responsiva que contém noticias e curiosidades sobre energia eólica.</p>
+                <div class="grey-rule w-hidden-small w-hidden-tiny"></div>
+                <nav class="navigation">
+                    <a href="../index.html" class="nav-link">Início</a>
+                    <a href="./sobre.html" class="nav-link">sobre</a>
+                    <a href="./contato.html" aria-current="page" class="nav-link w--current">contato</a>
+                    <div class="grey-rule w-hidden-small w-hidden-tiny"></div>
+                </nav>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="post-wrapper">
+                <div class="post-content">
+                    <div class="body-copy w-richtext">
+                        <h1>Entre em contato conosco.</h1>
+                        <p>Caso deseje que alguma notícia seja retirada e/ou adicionada, favor preencher os dados abaixo e entraremos em contato via email assim que possível.</p>
+                    </div>
+                    <div class="form-wrapper w-form">
+                        <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66425161a3fa56c20cdbba45" data-wf-element-id="0f306e89-5450-5a9b-e7e3-e8bf4592f58f">
+                            <label for="name">Nome</label>
+                            <input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Preencha com seu nome completo" type="text" id="name"/>
+                            <label for="email">Email</label>
+                            <input class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Preencha com seu endereço de email" type="email" id="email" required=""/>
+                            <label for="Message">Mensagem</label>
+                            <textarea id="Message" name="Message" placeholder="Digite sua mensagem..." maxlength="5000" data-name="Message" required="" class="text-field text-area w-input"></textarea>
+                            <input type="submit" data-wait="Por favor, aguarde..." class="button w-button" value="Enviar"/>
+                        </form>
+                        <div class="success-message w-form-done">
+                            <p class="success-text">Muito obrigado! Sua mensagem foi enviada com sucesso!</p>
+                        </div>
+                        <div class="w-form-fail">
+                            <p>Alguma coisa deu errado ao tentar enviar sua mensagem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

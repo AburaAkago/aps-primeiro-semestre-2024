@@ -1,0 +1,62 @@
+.icon {
+    font-family: 'Material icons', sans-serif;
+}
+
+.icon.accordion-icon {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 32px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    padding: 24px 30px 14px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.26);
+}
+
+.accordion-item-trigger {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.accordion-wrapper {
+    margin-top: 50px;
+}
+
+.accordion-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.accordion-item-content {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: 'Material icons';
+    src: url(../img/5cbcf60afad96cc2c59a7f3d_Material_Icons.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
