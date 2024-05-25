@@ -6,7 +6,6 @@ html {
   
   body {
     margin: 0;
-    text-align: justify;
   }
   
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -2190,6 +2189,7 @@ html {
     margin-bottom: 20px;
     font-family: Lato, sans-serif;
     line-height: 160%;
+    text-align: justify;
   }
   
   a {
@@ -2447,6 +2447,7 @@ html {
     font-size: 14px;
     line-height: 22px;
     display: inline;
+    text-align: justify;
   }
   
   .post-info {
